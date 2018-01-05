@@ -39,10 +39,15 @@ public class Euler7 {
     public static int euler7(int n) {
     
         int p = 1;
+        int cnt = 0;
     
         // ToDo: Insert your code here
         // You may want to use the function isPrime() below.
-        
+        while (cnt < n) {
+            while (!isPrime(++p));
+            ++cnt;
+        }
+                
         return p;
     }
     
@@ -54,8 +59,12 @@ public class Euler7 {
     public static boolean isPrime(long n) {
 
         // ToDo: Insert your code here
-
+        for (int ii=2; ii<=Math.sqrt(n); ++ii)
+            if (n%ii==0)
+                return false;
+        
         return true;
+
     }
 
     
