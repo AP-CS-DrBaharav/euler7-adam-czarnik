@@ -8,7 +8,7 @@
  * we can see that the 6th prime is 13.
  * What is the 10,001st prime number?
  * 
- * Answer: ________  <== You fill in (you can check on Euler Project)
+ * Answer: ____104743____  <== You fill in (you can check on Euler Project)
  */
 
 
